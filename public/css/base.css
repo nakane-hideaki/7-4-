@@ -1,0 +1,603 @@
+@charset "UTF-8";
+
+body{
+    /* background-image: url(/img/002.jpeg); */
+    /* background-color:rgba(255,255,255,0.8); */
+    /* background: -webkit-linear-gradient(90deg, #9ecef1, #a5979d); */
+    background: linear-gradient(90deg, rgb(96 146 170), rgb(111 206 245 / 80%)),url(/img/002.jpeg);
+    background-blend-mode:lighten;
+    background-size: 100% 80%;
+}
+
+/* ページNO1 */
+
+.form_1{
+    text-align: center;
+    background-color: rgb(255 255 255 / 80%);
+    border: solid 1.5px;
+    border-radius: 8px;
+    width: 50%;
+    margin: 60px auto;
+    height: auto;
+}
+
+.form_1 span{
+    font-size: 18px;
+    color: red;
+}
+
+.form_1 input{
+    height: 35px;
+    vertical-align: middle;
+}
+
+.form1_input{
+    width: 250px;
+}
+
+.form_1 p{
+    font-size: 25px;
+    margin: 60px 0 0 0;
+}
+
+.login1_button input{
+    margin: 100px 0 0 0;
+}
+
+.login1_button{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 100px 30px 100px;
+}
+
+/* ページNO2 */
+
+.form_2{
+    text-align: center;
+    background-color: rgb(255 255 255 / 80%);
+    border: solid 1.5px;
+    border-radius: 8px;
+    width: 50%;
+    margin: 60px auto;
+    height: auto;
+}
+
+.form_2 span{
+    font-size: 18px;
+    color: red;
+}
+
+.form_2 input{
+    height: 35px;
+    vertical-align: middle;
+}
+
+.form2_input{
+    width: 250px;
+}
+
+.form_2 p{
+    font-size: 25px;
+    margin: 50px 0 0 0;
+}
+
+.login2_button input{
+    margin: 25px 0 0 0;
+}
+
+.login2_button{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 100px 30px 100px;
+}
+
+.checkbox3{
+}
+
+.checkbox3_1{
+
+}
+
+.checkbox3 p{
+    margin: 15px 0;
+    font-size: 15px;
+}
+
+.checkbox3 label{
+    font-size: 10px;
+}
+
+.checkbox3 input{
+    vertical-align: middle;
+}
+
+/* ページNO3 */
+
+.form_3{
+    text-align: center;
+    background-color: rgb(255 255 255 / 80%);
+    border: solid 1.5px;
+    border-radius: 8px;
+    width: 50%;
+    margin: 60px auto;
+    height: 330px;
+    padding: 70px 0 0 0;
+}
+
+.form_3 input{
+    height: 35px;
+    vertical-align: middle;
+}
+
+.form3_input{
+    width: 250px;
+}
+
+.form_3 p{
+    font-size: 25px;
+    margin: 60px 0 0 0;
+}
+
+.login3_button input{
+    margin: 100px 0 0 0;
+}
+
+.login3_button{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 100px;
+}
+
+/* ページNO4 */
+
+.form_toppage{
+    text-align: center;
+    margin: 75px 0;
+    font-size: 35px;
+}
+
+.form_toppage2{
+    height: 35px;
+    width: 400px;
+    font-size: 20px;
+    vertical-align: middle;
+    background-color: rgb(255 255 255 / 80%);
+    border: solid;
+}
+
+.form_toppage3{
+    height: 35px;
+    width: 60px;
+    font-size: 20px;
+    vertical-align: middle;
+}
+
+.toppage{
+    background: rgb(255 255 255 / 80%);
+    text-align: center;
+    font-size: 25px;
+    border: solid;
+    width: 152px;
+    border-radius: 10px;
+    margin: 70px auto 80px auto;
+    width: 80%;
+    height: auto;
+}
+
+.latest_title{
+    display: flex;
+    justify-content: space-between;
+    margin: 45px auto;
+    padding: 15px;
+    width: 85%;
+    border-radius: 8px;
+    border: solid;
+    background-color: rgb(221 242 237 / 80%);
+}
+
+.latest_title2{
+    display: flex;
+    justify-content: space-between;
+    margin: 45px auto;
+    padding: 15px;
+    width: 65%;
+    border-radius: 8px;
+    border: solid;
+    background-color: rgb(221 242 237 / 80%);
+}
+
+.project_top{
+    display: flex;
+}
+
+/* ページNO5 */
+
+.back{
+    margin: 40px;
+    font-size: 20px;
+}
+
+/* ページNO6 */
+
+.form_index6 p{
+    background-color: rgb(255 255 255 / 80%);
+    text-align: center;
+    border-radius: 8px;
+    border: solid;
+    width: 80%;
+    height: auto;
+    font-size: 25px;
+    padding: 10px 0px;
+    margin: 50px auto;
+}
+
+.index_6_input{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 200px;
+}
+
+.span{
+    white-space: pre-wrap;
+    text-align: left;
+}
+
+/* ページNO7 */
+
+.index_7 p{
+    text-align: center;
+    margin: 250px 0 0 0;
+    font-size: 20px;
+}
+
+.index_7 input{
+    width: 200px;
+    font-size: 20px;
+    margin: 45px auto 200px auto;
+    display: block;
+}
+
+
+/* ページNO8 */
+
+.index_8_title{
+    display: flex;
+    justify-content: space-between;
+    margin: 45px auto;
+    padding: 15px;
+    width: 85%;
+    border-radius: 8px;
+    border: solid;
+    background-color: rgb(221 242 237 / 80%);
+}
+
+.index_8_title button{
+    border: none;
+    background: none;
+    cursor: pointer;
+    font-size: 25px;
+}
+
+.index_8_button_mypage{
+    font-size: 25px;
+    margin: 20px 0;
+}
+
+.form_index_8{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 200px;
+    margin: 50px 0;
+}
+
+.form_index_8 button{
+    font-size: 25px;
+}
+
+/* ページNO9 */
+
+.index_9{
+    background-color: rgb(255 255 255 / 80%);
+    border: solid 1.5px;
+    border-radius: 8px;
+    width: 80%;
+    height: 800px;
+    margin: 100px auto;
+    white-space: pre-wrap;
+}
+
+.index_9_message textarea{
+    background-color: rgb(255 255 255 / 80%);
+    border: solid 1.5px;
+    border-radius: 8px;
+    width: 80%;
+    height: auto;
+    display: block;
+    margin: 50px auto;
+}
+
+.index_9_input{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 200px;
+}
+
+.image_send_form input{
+    font-size: 18px;
+}
+
+.image_send_form{
+    display: flex;
+    padding: 0 230px;
+    font-size: 18px;
+}
+/* ページNO11 */
+
+.index_11_form p{
+    background-color: rgb(255 255 255 / 80%);
+    text-align: center;
+    border-radius: 8px;
+    border: solid;
+    width: 80%;
+    height: auto;
+    font-size: 25px;
+    padding: 10px 0px;
+    margin: 50px auto;
+}
+
+.index_11_title_input{
+    height: 30px;
+    width: 600px;
+    font-size: 25px;
+    vertical-align: middle;
+    margin: 0 0 0 50px;
+}
+
+.index_11_form select{
+    font-size: 25px;
+    margin: 0 92px;
+}
+
+textarea {
+    resize: none;
+    width: 80%;
+    height: 500px;
+    border: solid;
+    border-radius: 8px;
+    margin: 0 auto;
+    display: block;
+    font-size: 20px;
+    background-color: rgb(255 255 255 / 80%);
+}
+
+.index_11_input{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 200px;
+}
+
+/* ページNO12 */
+/* 編集ページのためほとんどページNO11を使用、一部変更したい場合のみ記入 */
+
+/* ページNO14 */
+
+.index_14 p{
+   text-align: center;
+   font-size: 25px;
+   margin: 250px 0;
+}
+
+.logout_form{
+    display: flex;
+    justify-content: space-between;
+    margin: 100px 30%;
+}
+
+.logout_form input{
+    font-size: 20px;
+}
+
+/* ページNO15 */
+
+.logout1 p{
+    text-align: center;
+    margin: 350px 0 100px 0;
+    font-size: 30px;
+}
+
+.logout2 input{
+    display: block;
+    margin: 0 auto 100px auto;
+    width: 200px;
+    font-size: 20px;
+}
+
+/* ヘッダー1 */
+
+.website{
+    font-size: 50px;
+    text-align: center;
+    text-align: center;
+    color: white;
+    background-color: #0b0b0f;
+    border: solid yellow;
+    border-radius: 8px;
+    width: 100%;
+    height: 170px;
+    margin: auto;
+    font-family: cursive;
+    font-weight: bold;
+    padding-top: 8px;
+}
+
+/* ヘッダー2 */
+
+.website2{
+    font-size: 35px;
+    background-color: rgb(36, 38, 39);
+    border: solid 1.5px white;
+    border-radius: 8px;
+    height: 62px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.website2 a{
+    color: rgb(248, 247, 247);
+    text-decoration: none;
+}
+
+.website2 p{
+    font-size: 18px;
+    font-family: cursive;
+    font-weight: bold;
+    color: white;
+    background-color: #6464fe;
+    border: solid yellow;
+    border-radius: 8px;
+    width: 185px;
+    height: 40px;
+    margin: auto;
+    text-align: center;
+    padding-top: 8px;
+}
+
+.website3{
+    margin: auto;
+    display: flex;
+}
+
+ul{
+    display: flex;
+    font-size: 18px;
+    list-style:none
+}
+
+li{
+    margin: 0 60px;
+}
+
+/* フッター */
+
+.fooder1{
+    background: #EEEEEE;
+    border: solid 1.5px;
+    border-radius: 8px;
+}
+
+.fooder2{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    margin: 0 35px;
+}
+
+/* send.php */
+
+.password_send{
+    text-align: center;
+    margin: 130px 0;
+    font-size: 22px;
+}
+
+/* password_resetting.php */
+
+.form_password_resetting{
+    text-align: center;
+    background: rgb(255 255 255 / 80%);
+    width: 50%;
+    margin: 60px auto;
+    height: 400px;
+    padding: 70px 0 0 0;
+    border: solid;
+    border-radius: 8px;
+}
+
+.form_password_resetting input{
+    height: 35px;
+    vertical-align: middle;
+}
+
+.form_password_resetting_input{
+    width: 250px;
+}
+
+.form_password_resetting p{
+    font-size: 25px;
+    margin: 60px 0 0 0;
+}
+
+.form_password_resetting_button input{
+    margin: 100px 0 0 0;
+}
+
+.form_password_resetting_button{
+    justify-content: space-between;
+    padding: 0 100px;
+}
+
+
+/* password_reset_complete.php */
+
+.password_complete{
+    text-align: center;
+    margin: 130px 0;
+    font-size: 22px;
+}
+
+/* ajaxページ */
+
+.my_id{
+    font-size: 22px;
+    color: #28af28;
+    margin: 10px 15px 0 0;
+    text-align: right;
+}
+
+.my_id_image{
+    margin: 10px 15px 0 0;
+    text-align: right;
+}
+
+.you_id{
+    font-size: 22px;
+    color: blue;
+    margin: 10px 0 0 15px;
+    text-align: left;
+}
+
+.you_id_image{
+    margin: 10px 0 0 15px;
+    text-align: left;
+}
+
+
+.message_box{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+}
+
+/* permission_projectページ */
+
+.permission{
+    background-color: rgb(123 163 228);
+    border: solid;
+    border-radius: 8px;
+    text-align: center;
+    width: 65%;
+    height: 100px;
+    margin: 50px 50px 0 50px;
+}
+
+.permission_users{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background: rgb(255 255 255 / 80%);
+    margin: 50px;
+    height: 450px;
+    border: solid;
+    border-radius: 8px;
+}
